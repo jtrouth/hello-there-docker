@@ -1,5 +1,7 @@
 FROM node:lts
 
+ENV PORT=8080
+
 WORKDIR app/
 
 COPY . .
