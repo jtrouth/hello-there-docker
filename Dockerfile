@@ -1,7 +1,8 @@
 FROM node:lts
 
 WORKDIR app/
-COPY app/ /app
+
+COPY . .
 
 RUN npm install
 
